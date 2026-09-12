@@ -1,0 +1,10 @@
+[
+ {"record_id":"F-1234-2026","source":"openfda_food_enforcement","record_type":"recall","date":"2026-03-14","firm":"Acme Botanicals LLC","product_description":"Ginkgo Biloba Extract 120mg capsules","reason":"Product adulterated with undeclared sildenafil","classification":"Class I","state":"CA"},
+ {"record_id":"F-5678-2026","source":"openfda_food_enforcement","record_type":"recall","date":"2026-01-08","firm":"Herbal Co","product_description":"Siberian Ginseng and Turmeric blend","reason":"Elevated lead levels; heavy metal contamination","classification":"Class II","state":"NY"},
+ {"record_id":"D-2222-2025","source":"openfda_drug_enforcement","record_type":"recall","date":"2025-11-20","firm":"PharmaHerb","product_description":"Yohimbe Bark Extract tablets","reason":"Product labeled as Pausinystalia yohimbe but DNA barcoding showed a different species","classification":"Class II","state":"TX"},
+ {"record_id":"2026-01234","source":"prop65_60day","record_type":"notice","date":"2026-05-02","firm":"Supplement Corp","product_description":"Ashwagandha root powder","reason":"Lead","classification":"Lead","state":"CA"},
+ {"record_id":"2025-09876","source":"prop65_60day","record_type":"notice","date":"2025-07-18","firm":"Green Leaf Inc","product_description":"Turmeric Curcumin capsules","reason":"Lead","classification":"Lead","state":"CA"},
+ {"record_id":"CAERS-99001","source":"openfda_food_event","record_type":"adverse_event","date":"2026-02-11","product_description":"Kratom Extract Powder","reason":"NAUSEA; TACHYCARDIA","classification":"HOSPITALIZATION"},
+ {"record_id":"CAERS-99002","source":"openfda_food_event","record_type":"adverse_event","date":"2025-09-30","product_description":"Kava Root Beverage","reason":"HEPATIC FAILURE","classification":"HOSPITALIZATION"},
+ {"record_id":"F-9999-2026","source":"openfda_food_enforcement","record_type":"recall","date":"2026-04-01","firm":"Plain Foods","product_description":"Salted crackers","reason":"Undeclared milk","classification":"Class II","state":"OH"}
+]

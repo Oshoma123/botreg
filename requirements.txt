@@ -1,0 +1,2 @@
+# botreg has no runtime dependencies; it uses the standard library only,
+# so it runs in restricted environments without a package installer.

@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use BOTREG or BAER, please cite it as below."
+title: "BOTREG and BAER: unified access to the US dietary supplement regulatory record, and the Botanical Adulteration Event Record derived from it"
+authors:
+  - family-names: "Erumiseli"
+    given-names: "Oshoma"
+    orcid: "https://orcid.org/0009-0004-3813-4650"
+    affiliation: "Independent Researcher, Corvallis, Oregon, USA"
+    email: "Erumiseli.oshomag@gmail.com"
+version: "0.1.0"
+date-released: "2026-09-09"
+license: MIT
+repository-code: "https://github.com/Oshoma123/botreg"
+keywords:
+  - dietary supplements
+  - botanical adulteration
+  - regulatory data
+  - openFDA
+  - GBIF
+abstract: >
+  BOTREG provides unified programmatic access to the United States public
+  regulatory and label record for dietary supplements: the NIH Dietary
+  Supplement Label Database, openFDA food enforcement, CAERS adverse event
+  and drug enforcement endpoints, FDA warning letters, and California
+  Proposition 65 sixty-day notices. It guards against three documented
+  failure modes in those sources that return well-formed but wrong results.
+  BAER, the Botanical Adulteration Event Record, is the derived dataset of
+  regulatory events mentioning botanicals, annotated against the GBIF
+  taxonomic backbone, with taxonomic match quality preserved rather than
+  collapsed.

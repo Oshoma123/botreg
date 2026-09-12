@@ -1,0 +1,133 @@
+{
+  "provenance": "live sources food_enforcement, drug_enforcement, food_event, prop65, fda_advisory, 2004-01-01 to 2026-09-09, retrieved 2026-09-10",
+  "context_filter": [
+    "supplement",
+    "ambiguous"
+  ],
+  "vocabulary_version": "0.2.1",
+  "pairs_version": "0.2.0",
+  "context_version": "0.1.0",
+  "vocabulary_size": {
+    "canonical_botanicals": 229,
+    "surface_forms": 610
+  },
+  "n_records_screened": 247005,
+  "n_records_with_botanical": 9803,
+  "pct_records_with_botanical": 3.97,
+  "n_events": 11636,
+  "events_per_record": 1.19,
+  "n_distinct_botanicals": 160,
+  "source_record_counts": {
+    "openfda_food_enforcement": 29386,
+    "openfda_drug_enforcement": 17938,
+    "openfda_food_event": 151286,
+    "prop65_60day": 48328,
+    "fda_advisory": 67
+  },
+  "taxonomy": {
+    "n_annotation_attempted": 11636,
+    "n_species_identified": 9721,
+    "pct_of_attempted": 83.54,
+    "match_type_counts": {
+      "EXACT": 10800,
+      "NONE": 439,
+      "HIGHERRANK": 397
+    }
+  },
+  "adulteration_types": {
+    "unspecified": 8787,
+    "contamination": 2466,
+    "undeclared_ingredient": 216,
+    "unapproved_ingredient": 131,
+    "mislabeling": 33,
+    "substitution": 3,
+    "plant_part_substitution": 0
+  },
+  "record_types": {
+    "adverse_event": 8076,
+    "notice": 1883,
+    "recall": 1519
+  },
+  "product_context": {
+    "counts": {
+      "ambiguous": 8709,
+      "supplement": 2927
+    },
+    "n_supplement": 2927
+  },
+  "by_source": {
+    "openfda_food_event": {
+      "n_events": 8140,
+      "n_records": 6745
+    },
+    "prop65_60day": {
+      "n_events": 1889,
+      "n_records": 1675
+    },
+    "openfda_food_enforcement": {
+      "n_events": 1196,
+      "n_records": 1046
+    },
+    "openfda_drug_enforcement": {
+      "n_events": 406,
+      "n_records": 334
+    },
+    "fda_advisory": {
+      "n_events": 5,
+      "n_records": 3
+    }
+  },
+  "top_botanicals": {
+    "Mitragyna speciosa": 1034,
+    "Cinnamomum": 840,
+    "Cannabis sativa": 808,
+    "Curcuma longa": 763,
+    "Zingiber officinale": 565,
+    "Camellia sinensis": 521,
+    "Allium sativum": 497,
+    "Vaccinium macrocarpon": 349,
+    "Vaccinium corymbosum": 247,
+    "Ginkgo biloba": 229
+  },
+  "pair_signals": {
+    "n_events_with_pair_signal": 62,
+    "n_events_with_documented_pair": 10,
+    "distinct_pairs_observed": [
+      "Crocus sativus <- Curcuma longa",
+      "Epimedium <- Epimedium",
+      "Euterpe oleracea <- Vitis vinifera",
+      "Ganoderma lucidum <- Ganoderma",
+      "Hydrastis canadensis <- Berberis aristata",
+      "Origanum vulgare <- Olea europaea",
+      "Punica granatum <- Vitis vinifera",
+      "Vaccinium myrtillus <- Vaccinium corymbosum"
+    ]
+  },
+  "prop65_retrieval": {
+    "n_notices": 48328,
+    "n_windows": 98,
+    "all_windows_under_cap": true,
+    "row_cap": 1000
+  },
+  "n_requests_logged": 698,
+  "vocabulary_control": {
+    "note": "v0.1.0 (209 botanicals) and v0.2.0 (229, adding Crataegus mexicana, Cascabela thevetia and other species central to documented US substitution cases) both returned zero substitution events over the same 246,938 records. The vocabulary is therefore not the explanation for these sources.",
+    "v0_1_0": {
+      "botanicals": 209,
+      "events": 11478,
+      "substitution": 0
+    },
+    "v0_2_0": {
+      "botanicals": 229,
+      "events": 11631,
+      "substitution": 0
+    }
+  },
+  "substitution_by_source": {
+    "fda_advisory": 3,
+    "openfda_food_enforcement": 0,
+    "openfda_drug_enforcement": 0,
+    "openfda_food_event": 0,
+    "prop65_60day": 0
+  }
+}

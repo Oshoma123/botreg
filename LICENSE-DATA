@@ -1,0 +1,20 @@
+The BAER dataset and derived outputs in this repository are dedicated to the
+public domain under CC0 1.0 Universal:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+Rationale: BAER is derived from US federal and state government records,
+which are not subject to copyright in the United States, and from the NIH
+Dietary Supplement Label Database, which is itself released under CC0. A more
+restrictive licence on the derived record would be inconsistent with the
+status of its inputs.
+
+Upstream terms that still apply:
+  DSLD                CC0 1.0
+  openFDA             US Government work; see https://open.fda.gov/terms/
+  FDA warning letters US Government work
+  CA AG Prop 65       California public record
+  GBIF backbone       CC BY 4.0 -- attribute GBIF when redistributing the
+                      taxonomic annotations
+
+Attribution is appreciated but not required for BAER itself; GBIF requires it
+for the taxonomy.

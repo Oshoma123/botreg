@@ -1,0 +1,15 @@
+{
+  "authors": [
+    {
+      "name": "Oshoma Erumiseli",
+      "family": "Erumiseli",
+      "given": "Oshoma",
+      "orcid": "0009-0004-3813-4650",
+      "email": "Erumiseli.oshomag@gmail.com",
+      "affiliation": "Independent Researcher, Corvallis, Oregon, USA",
+      "roles": ["Conceptualization", "Methodology", "Software", "Data curation"],
+      "corresponding": true
+    }
+  ],
+  "collaborators": []
+}
