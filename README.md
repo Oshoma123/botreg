@@ -268,6 +268,13 @@ tests/             76 tests + offline fixtures
 docs/              LIMITATIONS, VOCABULARY, SOURCES
 ```
 
+## Maintenance
+
+BAER is rebuilt **quarterly** (January, April, July, October); each rebuild
+re-retrieves every source and publishes as a versioned release with its own
+Zenodo DOI. Full policy — versioning, preservation, terms, succession — in
+[`docs/MAINTENANCE.md`](docs/MAINTENANCE.md).
+
 ## Limitations
 
 See [`docs/LIMITATIONS.md`](docs/LIMITATIONS.md) before citing anything.
