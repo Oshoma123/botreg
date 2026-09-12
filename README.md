@@ -1,5 +1,7 @@
 # BOTREG and BAER
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22728764.svg)](https://doi.org/10.5281/zenodo.22728764)
+
 **BOTREG** is an open-source package providing unified programmatic access to
 the United States public regulatory and label record for dietary supplements.
 **BAER**, the Botanical Adulteration Event Record, is the dataset derived from
@@ -272,4 +274,11 @@ See [`docs/LIMITATIONS.md`](docs/LIMITATIONS.md) before citing anything.
 
 ## Citation
 
-See `CITATION.cff`. A DOI will be minted on the first release.
+Erumiseli, O. (2026). *BOTREG and BAER: unified access to the US dietary
+supplement regulatory record, and the Botanical Adulteration Event Record
+derived from it*. Zenodo. <https://doi.org/10.5281/zenodo.22728764>
+
+Machine-readable metadata in [`CITATION.cff`](CITATION.cff). The DOI above is
+the concept DOI and always resolves to the latest version; the archived
+v2.0.2 release has its own version DOI, `10.5281/zenodo.22728765`, which is the one to cite
+when reproducing a specific result.
